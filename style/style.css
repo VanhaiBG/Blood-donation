@@ -1,0 +1,128 @@
+html, body, nav, header, article, footer, div, img, 
+ul, li, h1, strong, a, h1, h2, em, p, form, input, 
+label, select, option {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	display: inline-block;
+	font-family: verdana, sans-serif;
+	padding-left: 3%;
+	font-size: 100%;
+}
+ul li, footer, .bold {
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+}
+a, .title {
+	color: #f00;
+}
+a:hover {
+	color: #fff;
+}
+.container1, .container2, .container3, .p4con1, .p4con2, .p4con3, 
+.p2con3 {
+	left: 1%;
+}
+nav, .container4, .container5, .p4con4, .p4con5 {
+	right: 1%;
+}
+nav, .container1, .container3, .container5, .p4con3, .p4con5 {
+	width: 46.5%;
+}
+nav, .container1, .container3, .container5, .p4con1, .p4con3, .p4con5, 
+.empty2, .empty5, .p2con3 {
+	height: 100px;
+}
+.p4con1, .p2con3 {
+	width: 47.6%;
+}
+nav, .container1, .p4con1 {
+	margin-top: 15px;
+}
+.container2, .container4, .p4con2, .p4con4, .p2empty {
+	margin-top: 141px;
+	height: 365px;
+}
+.container2, .container4, .p2empty {
+	width: 20%;
+}
+.p4con2, .p4con4, .empty1, .empty3, .empty4, .empty6 {
+	width: 13.5%;
+}
+.container3, .container5, .p4con3, .p4con5, .p2con3 {
+	margin-top: 532px;
+}
+nav, .container1, .container2, .container3, .container4, .container5, 
+.p4con1, .p4con2, .p4con3, .p4con4, .p4con5, .empty1, .empty2, .empty3, 
+.empty4, .empty5, .empty6, .p2con3, .p2empty {
+	padding: 13px;
+	background: rgba(255, 0, 0, 0.5);
+}
+.img, nav, .container1, .container2, .container3, .container4, 
+.container5, .p4con1, .p4con2, .p4con3, .p4con4, .p4con5, .empty1, 
+.empty2, .empty3, .empty4, .empty5, .empty6, .p2con3, .p2empty, .img2, 
+.img3 {
+	position: absolute;
+}
+.img {
+	margin-top: 156px;
+	width: 52%;
+	left: 24%;
+}
+footer {
+	position: relative;
+	top: 670px;
+}
+nav, footer, .container1, .container2, .container3, .container4, 
+.container5, .p4con1, .p4con2, .p4con3, .p4con4, .p4con5, .empty1, 
+.empty2, .empty3, .empty4, .empty5, .empty6, .p2con3, .p2empty {
+	font-size: 80%;
+	text-align: center;
+	font-family: helvetica, sans-serif;
+}
+.empty1, .empty4 {
+	height: 225px;
+}
+.empty1, .empty3, .empty4, .empty6 {
+	margin-top: 281px;
+}
+.empty1 {
+	left: 34%;
+}
+.empty2, .empty5 {
+	margin-top: 155px;
+}
+.empty2, .empty3 {
+	left: 17.6%;
+}
+.empty2, .empty5 {
+	width: 29.9%;
+}
+.empty3, .empty6 {
+	height: 210px;
+}
+.empty4 {
+	right: 34%;
+}
+.empty5, .empty6 {
+	right: 17.6%;
+}
+.p2empty {
+	left: 39%;
+}
+.img2 {
+	left: 17%;
+}
+.img3 {
+	left: 61.4%;
+}
+.img2, .img3 {
+	margin-top: 142px;
+	width: 19.7%;
+}
+.img, .img2, .img3 {
+	height: 362px;
+}
